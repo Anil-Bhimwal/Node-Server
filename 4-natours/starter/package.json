@@ -1,0 +1,28 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anil-Bhimwal/Node-Server.git"
+  },
+  "author": "Anil-Bhimwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anil-Bhimwal/Node-Server/issues"
+  },
+  "homepage": "https://github.com/Anil-Bhimwal/Node-Server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "response-time": "^2.3.2",
+    "superagent": "^8.0.9"
+  }
+}
